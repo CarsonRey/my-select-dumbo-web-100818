@@ -9,5 +9,6 @@ def my_select(collection)
   else
     next
   end
+  storage
  end
 end

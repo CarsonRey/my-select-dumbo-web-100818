@@ -6,10 +6,9 @@ def my_select(collection)
   if yield(collection[i]) == true
     storage <<  yield(collection[i])
     i += 1 
+    storage
   else
-   i += 1
-  
+    i += 1
   end
- 
  end
 end

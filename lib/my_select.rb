@@ -6,6 +6,8 @@ def my_select(collection)
   if yield(collection[i]) 
     storage <<  yield(collection[i])
     i += 1 
+  else
+    nil
   end
   storage
  end

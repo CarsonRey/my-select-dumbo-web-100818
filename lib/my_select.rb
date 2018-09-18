@@ -5,10 +5,8 @@ def my_select(collection)
  while i < collection.length 
   if yield(collection[i]) == true 
     storage <<  yield(collection[i])
+   end
     i += 1 
-  else
-    nil
-  end
-  storage
  end
+  storage
 end

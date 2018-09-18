@@ -7,8 +7,9 @@ def my_select(collection)
     storage <<  yield(collection[i])
     i += 1 
   else
-   puts "blah"
+   i += 1
+  
   end
-  storage
+ 
  end
 end
